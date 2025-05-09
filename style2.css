@@ -1,0 +1,64 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #F8B195;
+    text-align: center;
+}
+header{
+    background-image: url(watercolor.avif);
+    color: #015458;
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+}
+header h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+header p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.Actionbutton{
+    padding: 10px 20px;
+    background-color: #ec8b13;
+    color:#e5ff9f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.Actionbutton:hover{
+    background-color: #f7c289;
+}
+.Features{
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+    background-color: #fec8ab;
+}
+.Feature{
+    margin: 10px;
+    padding: 80px 150px;
+    color: #015743;
+    background-color: #feb590;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px #f7a8e1;
+    transition:transform 0.3s , box-shadow 0.3s ease;
+}
+.Feature p{
+    color: #026850;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Feature:hover{
+    transform: :scale(1.05);
+    box-shadow: 0 4px 8px #ECE3CE
+}
+footer{
+    background-color: #fac1a2;
+    color: #2b0303;
+    text-align: center;
+    padding: 20px;
+}
+
